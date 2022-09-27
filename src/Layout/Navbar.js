@@ -6,7 +6,7 @@ const Navbar = () => {
     return(
         <div>
             <Header />
-            <div className="px-10 py-4 flex justify-between items-center">
+            <div className="px-10 py-4 flex justify-between items-center sm:px-4 sm:py-5">
                 <div>
                     <img src="" alt="" />
                     <div className=" text-bluetext text-2xl">Sarod Academy</div>

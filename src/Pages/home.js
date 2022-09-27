@@ -48,7 +48,7 @@ const Home = () =>{
                     students in a fun and caring environments.
                 </div>
                 <button to="/" className=" bg-bluetext text-bluebg px-3 py-1 mt-4 text-lg font-medium rounded-md">
-                    <Link>Get in Touch</Link>
+                    <Link to="Contact">Get in Touch</Link>
                 </button>
             </div>
             <div className=" flex flex-wrap text-center mx-20 gap-10 text-bluebg items-center ">
@@ -80,9 +80,9 @@ const Home = () =>{
                         <div className=" p-6 text-center">
                             <div className=" font-bold text-sm">Building self confidence</div>
                             <div>Input anything wey you like for this section, hope shey you understand?</div>
-                            <button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
+                            {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
-                            </button>
+                            </button>*/}
                         </div>
                     </div>
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
@@ -90,9 +90,9 @@ const Home = () =>{
                         <div className=" p-6 text-center">
                             <div className=" font-bold text-sm">Building self confidence</div>
                             <div>Input anything wey you like for this section, hope shey you understand?</div>
-                            <button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
+                            {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
-                            </button>
+                        </button>*/}
                         </div>
                     </div>
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
@@ -100,9 +100,9 @@ const Home = () =>{
                         <div className=" p-6 text-center">
                             <div className=" font-bold text-sm">Building self confidence</div>
                             <div>Input anything wey you like for this section, hope shey you understand?</div>
-                            <button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
+                            {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
-                            </button>
+                    </button>*/}
                         </div>
                     </div>
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
@@ -110,9 +110,9 @@ const Home = () =>{
                         <div className=" p-6 text-center">
                             <div className=" font-bold text-sm">Building self confidence</div>
                             <div>Input anything wey you like for this section, hope shey you understand?</div>
-                            <button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
+                            {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
-                            </button>
+                </button>*/}
                         </div>
                     </div>
                     
@@ -132,7 +132,7 @@ const Home = () =>{
                     get in touch today. We are proud of our reputation, with 5-star reviews from over 20 reviews and ratings.
                     </div>
                     <button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium rounded-md">
-                        <Link>See More</Link>
+                        <Link to="About">See More</Link>
                     </button>
                 </div>
                 
@@ -146,7 +146,7 @@ const Home = () =>{
                     reviews from over 20 reviews and ratings.”
                 </div>
                 <button to="/" className=" bg-bluetext text-bluebg px-3 py-1 mt-4 text-lg font-medium rounded-md">
-                        <Link>See More</Link>
+                        <Link to="About">See More</Link>
                     </button>
             </div>
             <Footer />
