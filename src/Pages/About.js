@@ -60,7 +60,7 @@ const About = () => {
 
                 
                     <div className=" px-10">
-                        <div className=" text-center text-3xl font-semibold text-bluebg">Facilities</div>
+                        <div className=" text-center text-3xl font-semibold text-bluebg justify-center">Facilities</div>
                         
                             <li className="text-bluebg">Spacious and conducive classrooms equipped with interactive white board and television sets.</li>
                             <li className="text-bluebg">Mini libraries including DVD and Video players.</li>
