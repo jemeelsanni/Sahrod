@@ -9,8 +9,23 @@ const Navbar = () => {
             
             <header className="p-1 dark:bg-gray-800 dark:text-gray-100 relative">
                 {open&& <>
-                <div className=" md:hidden w-full bg-red h-60 absolute top-0">
+                <div className=" md:hidden w-full bg-bluebg h-60 absolute top-0">
                     <div onClick={()=>setOpen(false)}>Close</div>
+                    <ul className="items-stretch  space-x-3 md:block ">
+                        <li className="flex">
+                            <Link rel="noopener noreferrer" to="/" className=" flex items-center px-7 text-bluetext text-lg font-semibold hover:text-bluetext">Home</Link>
+                        </li>
+                        <li className="flex">
+                            <Link rel="noopener noreferrer" to="/Gallery" className="flex items-center px-4 text-bluetext text-lg font-semibold hover:text-bluetext ">Gallery</Link>
+                        </li>
+                        <li className="flex">
+                            <Link rel="noopener noreferrer" to="/About" className="flex items-center px-4 text-bluetext text-lg font-semibold hover:text-bluetext">About</Link>
+                        </li>
+                        <li className="flex">
+                            <Link rel="noopener noreferrer" to="/Contact" className="flex items-center px-4 text-bluetext text-lg font-semibold hover:text-bluetext ">Contact Us</Link>
+                        </li>
+                        
+                    </ul>
                 </div>
                 
                 </> }
