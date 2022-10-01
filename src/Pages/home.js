@@ -33,10 +33,6 @@ const Home = () =>{
                             <img src="./Learning.png" alt="" />
                             <div className=" text-white">Nuturing</div>
                         </div>
-                        <div className=" px-8 py-5 bg-purple items-center text-center">
-                            <img src="./Learning.png" alt="" />
-                            <div className=" text-white">Games</div>
-                        </div>
                     </div>
                     
                 </div>
