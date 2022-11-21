@@ -9,7 +9,7 @@ const Home = () =>{
             
             <div className=" r">
                 <div className=" absolute object-fit h-full w-full -z-10">
-                    <img src="./Rectangle 4.png" className=" w-full h-full" />
+                    <img src="./DSC_0358.jpg" className=" w-full h-full" />
                 </div>
                 <Navbar />
                 <div className="">
@@ -39,10 +39,9 @@ const Home = () =>{
             </div>
             <div className=" my-20  bg-bluebg text-bluetext text-center p-16">
                 <div className=" text-2xl font-bold">Our Mission</div> <br />
-                <div className=" font-normal text-xl">We inspire learning through creativity. We partner with parentscarers and all, 
-                    in a nurturing, creative, fun and safe environment. We foster the crafty Wizards ethos 
-                    to ensure that quality learning opportunities and progress occur for all our unique 
-                    students in a fun and caring environments.
+                <div className=" font-normal text-xl">We are poised to positively affect our community host, the 
+                            nation and the world, contributing our own quota towards the development of the child
+                            in the new world order. 
                 </div>
                 <button to="/" className=" bg-bluetext text-bluebg px-3 py-1 mt-4 text-lg font-medium rounded-md">
                     <Link to="Contact">Get in Touch</Link>
@@ -61,7 +60,7 @@ const Home = () =>{
                     </button>
                 </div>
                 <div className="flex-shrink flex-grow basis-96">
-                    <img src="Rectangle 9.png" alt="" />
+                    <img src="DSC_0493.jpg" alt="" />
                 </div>
             </div>
             <div className=" bg-bluebg text-bluetext py-6 my-20">
@@ -71,36 +70,36 @@ const Home = () =>{
                 </div>
                 <div className=" flex flex-wrap px-24 mt-8 gap-6">
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
-                        <img className=" h-64 w-full object-cover" src="./Activities1.png" alt=""/>
+                        <img className=" h-64 w-full object-cover" src="./Rectangle 4.png" alt=""/>
                         <div className=" p-6 text-center">
-                            <div className=" font-bold text-sm">Building self confidence</div>
+                            <div className=" font-bold text-sm">ADMIN</div>
                             {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
                             </button>*/}
                         </div>
                     </div>
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
-                        <img className=" h-64 w-full object-cover" src="./Activities2.png" alt=""/>
+                        <img className=" h-64 w-full object-cover" src="./Rectangle 4.png" alt=""/>
                         <div className=" p-6 text-center">
-                            <div className=" font-bold text-sm">Building self confidence</div>
+                            <div className=" font-bold text-sm">PRINCIPAL</div>
                             {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
                         </button>*/}
                         </div>
                     </div>
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
-                        <img className=" h-64 w-full object-cover" src="./Activities3.png" alt=""/>
+                        <img className=" h-64 w-full object-cover" src="./Rectangle 4.png" alt=""/>
                         <div className=" p-6 text-center">
-                            <div className=" font-bold text-sm">Building self confidence</div>
+                            <div className=" font-bold text-sm">VICE PRINCIPAL</div>
                             {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
                     </button>*/}
                         </div>
                     </div>
                     <div className=" bg-white flex-grow flex-shrink basis-64 overflow-hidden">
-                        <img className=" h-64 w-full object-cover" src="./Activities4.png" alt=""/>
+                        <img className=" h-64 w-full object-cover" src="./Rectangle 4.png" alt=""/>
                         <div className=" p-6 text-center">
-                            <div className=" font-bold text-sm">Building self confidence</div>
+                            <div className=" font-bold text-sm">HEADTEACHER</div>
                             {/**<button to="/" className=" text-bluetext bg-bluebg px-3 py-1 mt-4 text-lg font-medium">
                                 <Link>Discover More</Link>
                 </button>*/}

@@ -76,7 +76,8 @@ const Contact = () =>{
                   </svg>
                   
                   <span class="mt-2 text-bluebg">
-                      Address
+                      Iyawo Estate, Sobi Road, <br />
+                      Ilorin, Kwara State.
                   </span>
                 </a>
               </div>
