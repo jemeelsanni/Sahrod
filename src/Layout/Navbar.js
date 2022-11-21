@@ -10,9 +10,11 @@ const Navbar = () => {
             <header className="p-1 dark:bg-gray-800 dark:text-gray-100 relative">
                 {open&& <>
                 <div className=" md:hidden w-full bg-bluebg h-60 absolute top-0">
-                    <div onClick={()=>setOpen(false)}>Close</div>
+                    <div onClick={()=>setOpen(false)}>
+                        <img src="Vector3.png" className=" m-6" alt="" />
+                    </div>
                     <ul className="items-stretch  space-x-3 md:block ">
-                        <li className="flex">
+                        <li className="flex mb-2">
                             <Link rel="noopener noreferrer" to="/" className=" flex items-center px-7 text-bluetext text-lg font-semibold hover:text-bluetext">Home</Link>
                         </li>
                         <li className="flex">
@@ -30,7 +32,7 @@ const Navbar = () => {
                 
                 </> }
                 <div className="container flex justify-between h-16 ">
-                    <Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-2">
+                    <Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-2 text-bluebg font-bold">
                         Sarod Academy
                     </Link>
                     <ul className="items-stretch hidden space-x-3 md:flex">
