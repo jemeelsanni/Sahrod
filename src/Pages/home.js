@@ -10,11 +10,7 @@ const Home = () => {
       <Header />
       <Navbar />
       <div>
-        <img
-          src="Hero section.png"
-          alt=""
-          className=" object-fit w-full h-[full]"
-        />
+        <img src="Hero section.png" alt="" className=" object-fit " />
       </div>
       <div>
         <div className="sm:my-12 ">
@@ -27,11 +23,11 @@ const Home = () => {
             <img src="waec.png" alt="" className=" w-14 h-14" />
             <p className="font-normal text-ash text-2xl">Waec</p>
           </div>
-          <div className=" flex items-center gap-4">
+          <div className=" flex items-center sm:gap-4 lg:gap-2">
             <img src="coat.png" alt="" className=" w-14 h-14" />
             <p className="font-normal text-ash text-2xl">FMC</p>
           </div>
-          <div className=" flex items-center gap-4">
+          <div className=" flex items-center sm:gap-4 lg:gap-2">
             <img src="neco.jpg" alt="" className=" w-14 h-14" />
             <p className="font-normal text-ash text-2xl">NECO</p>
           </div>
@@ -97,8 +93,8 @@ const Home = () => {
             quality learning opportunities and progress occur for all our unique
             students in a fun and caring environments.
           </div>
-          <div className="flex justify-center mt-6">
-            <img src="./DSC_0358.jpg" className=" w-1/2 h-1/2" />
+          <div className="flex-shrink flex-grow basis-96 mt-6">
+            <img src="./DSC_0358.jpg" className=" " />
           </div>
         </div>
       </div>
