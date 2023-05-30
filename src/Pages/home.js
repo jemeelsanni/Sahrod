@@ -26,7 +26,7 @@ const Home = () => {
         <div className=" flex justify-around sm:px-24">
           <div className=" flex items-center sm:gap-4 lg:gap-2">
             <img src="waec.png" alt="" className=" w-6  sm:w-14 h-6  sm:h-14" />
-            <p className="font-normal text-ash text-xl sm:text-2xl">Waec</p>
+            <p className="font-normal text-ash text-xl sm:text-2xl">WAEC</p>
           </div>
           <div className=" flex items-center sm:gap-4 lg:gap-2">
             <img src="coat.png" alt="" className=" w-6 h-6 sm:w-14 sm:h-14" />
@@ -149,9 +149,9 @@ const Home = () => {
                 <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
               </svg>
               <p className="px-6 py-1 text-lg italic">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatibus quibusdam, eligendi exercitationem molestias
-                possimus facere.
+                Sarod Academy zero tolerance to examination malpractice is
+                worthy of commendation and this teaches students to avoid any
+                form of corrruption in their endeavor.
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +164,7 @@ const Home = () => {
               </svg>
             </div>
             <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-            <p>Leroy Jenkins</p>
+            <p>Sanni Jemeel</p>
           </div>
           <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
             <div className="relative text-center">
@@ -183,10 +183,8 @@ const Home = () => {
                 ></path>
               </svg>
               <p className="px-6 py-1 text-lg italic">
-                Accusantium illum cupiditate harum asperiores iusto quos quasi
-                quis quae! Fugit doloribus, voluptatum quidem magnam velit
-                excepturi nobis, reprehenderit ducimus incidunt quisquam quae
-                veritatis, quos iure harum.
+                Sarod Academy combines both Islamic Knowledge with impeccable
+                western education.
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -204,7 +202,7 @@ const Home = () => {
               </svg>
             </div>
             <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-            <p>Leroy Jenkins</p>
+            <p>Usman Sulaiman</p>
           </div>
         </div>
       </div>
