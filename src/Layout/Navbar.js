@@ -60,7 +60,7 @@ const Navbar = () => {
             aria-label="Back to homepage"
             className="flex items-center ml-6 p-2 text-bluebg font-bold"
           >
-            <img src="logo.jpg" alt="" className=" h-16" />
+            <img src="logo.jpg" alt="" className=" h-6" />
           </Link>
           <ul className="items-stretch hidden space-x-3 md:flex">
             <li className="flex">

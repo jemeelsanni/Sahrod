@@ -9,8 +9,13 @@ const Home = () => {
     <div>
       <Header />
       <Navbar />
-      <div>
-        <img src="Hero section.png" alt="" className=" object-fit " />
+      <div className="">
+        <div className="sm:hidden block">
+          <img src="hero.png" alt="" />
+        </div>
+        <div className="sm:block hidden">
+          <img src="Hero section.png" alt="" className=" object-fit  " />
+        </div>
       </div>
       <div>
         <div className="sm:my-12 ">
@@ -20,16 +25,16 @@ const Home = () => {
         </div>
         <div className=" flex justify-around sm:px-24">
           <div className=" flex items-center sm:gap-4 lg:gap-2">
-            <img src="waec.png" alt="" className=" w-14 h-14" />
-            <p className="font-normal text-ash text-2xl">Waec</p>
+            <img src="waec.png" alt="" className=" w-6  sm:w-14 h-6  sm:h-14" />
+            <p className="font-normal text-ash text-xl sm:text-2xl">Waec</p>
           </div>
           <div className=" flex items-center sm:gap-4 lg:gap-2">
-            <img src="coat.png" alt="" className=" w-14 h-14" />
-            <p className="font-normal text-ash text-2xl">FMC</p>
+            <img src="coat.png" alt="" className=" w-6 h-6 sm:w-14 sm:h-14" />
+            <p className="font-normal text-ash text-xl sm:text-2xl">FMC</p>
           </div>
           <div className=" flex items-center sm:gap-4 lg:gap-2">
-            <img src="neco.jpg" alt="" className=" w-14 h-14" />
-            <p className="font-normal text-ash text-2xl">NECO</p>
+            <img src="neco.jpg" alt="" className=" w-6 h-6 sm:w-14 sm:h-14" />
+            <p className="font-normal text-ash text-xl sm:text-2xl">NECO</p>
           </div>
         </div>
         <div className=" my-6 text-center p-16">
